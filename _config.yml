@@ -1,0 +1,88 @@
+#Site
+name: Mr. Braz Tech
+description: Welcome to server-side blogging
+meta_description: Helping server-side developers find the best solutions for distributed system problems in order to work in a stress-free and awesome project.
+logo: assets/images/logo.png
+email: anderson.braz@gmail.com
+
+baseurl: 
+paginate: 10
+sharethis: "<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5b55ed9f8f327c00111ab118&product=sticky-share-buttons' async='async'></script>"
+google_analytics: UA-122758390-1
+disqus: mrbraztech
+markdown: kramdown
+highlighter: rouge
+
+mailchimp:
+  newsletter: http://github.us13.list-manage.com/subscribe/post?u=53fdeff1bbaa9a91b2486aa86&id=63167cb18e
+
+callToAction:
+  title: Microservices Straight from the Trenches Series
+  lead: "Join us in the live webinar: How to choose the right protocol for each problem you have?"
+  action: http://webinars.mrbraz.tech
+  actionLabel: I wanna reserve my seat!
+
+#hero
+hero:
+  image: /assets/images/head.jpg
+  title: Let's build the awesomeness
+  lead: Lead tet goes here
+  actionLabel: Action goes gere
+  actionLink: /
+
+menu:
+  about:
+    label: About
+    link: /about
+  contact:
+    label: Contact
+    link: /contact
+  download:
+    label: Download
+    link: /
+    highlight: true
+
+# Authors
+authors:
+  braz:
+    name: 'Braz'
+    display_name: 'Mr.Braz'
+    gravatar: '0f1f66c07f83cfa7ea461ca224023e37'
+    email: 'anderson.braz@gmail.com'
+    web: 'https://www.mrbraz.tech/'
+    twitter: 'https://twitter.com/mrbraztech'
+    description: 'Helping server-side developers find the best solutions for distributed system problems in order to work in a stress-free and awesome project.'
+
+# Resources
+resources:
+  slideshare:
+    name: Slideshare
+    link: http://slideshare.com/mrbrazjava
+  github:
+    name: Github
+    link: http://gitbub.com/mrbraztech
+
+# Partners
+partners:
+  tdc:
+    name: TDC
+    link: http://thedevelopersconference.com.br
+  code4life:
+    name: Code4.Life
+    link: https://code4.life
+  cyborgdev:
+    name: Cyborg Developer
+    link: https://cyborgdeveloper.tech
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'

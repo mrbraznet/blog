@@ -1,0 +1,42 @@
+<div id="mc_embed_signup">
+	<div id="mc_embed_signup_scroll">
+		<form action="{{site.mailchimp.newsletter}}" id="mc-newsletter-subscribe-form" name="mc-newsletter-subscribe-form">
+			<div class="form-group">
+				<input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Your Best E-mail">
+			</div>
+
+			<div style="position: absolute; left: -5000px;" aria-hidden="true">
+				<input type="text" name="b_53fdeff1bbaa9a91b2486aa86_1191e5f872" tabindex="-1" value="">
+			</div>
+
+			<button value="Subscribe" class="btn btn-primary btn-block">
+				Subscribe
+			</button>
+		</form>
+
+		<div id="mce-response">
+			<div id="mce-success-response" class="alert alert-success" role="alert" style="display:none"></div>
+	
+			<div id="mce-error-response" class="alert alert-danger" role="alert" style="display:none"></div>
+		</div>
+	</div>
+</div>
+
+<script>
+	function newsletterCallback(response) {
+		console.log(response);
+		var success = $('#mce-success-response');
+		var error = $('#mce-error-response');
+		var responseMsg = response.msg.replace("0 - Please enter a value", "Please fill out a valid e-mail");
+
+		if (response.result === 'success') {
+			success.show().text(responseMsg);
+			error.hide();
+		}
+
+		if (response.result === 'error') {
+			error.show().text(responseMsg);
+			success.hide();
+		}
+	}
+</script>
