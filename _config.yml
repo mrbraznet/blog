@@ -55,9 +55,6 @@ authors:
 
 # Resources
 resources:
-  jaya:
-    name: Passionate Developers
-    link: http://jaya.tech
   slideshare:
     name: Slideshare
     link: http://slideshare.com/mrbrazjava
@@ -67,6 +64,9 @@ resources:
 
 # Partners
 partners:
+  jaya:
+    name: Passionate Developers
+    link: http://jaya.tech
   tdc:
     name: TDC
     link: http://thedevelopersconference.com.br
