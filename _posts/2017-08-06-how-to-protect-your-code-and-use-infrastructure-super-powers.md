@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to be more productive on microservices development?"
+title:  "Microservices capabilities: How to protect your code and use the infrastructure's super powers?"
 categories: Microservices
 excerpt_separator: <!--more-->
 ---
