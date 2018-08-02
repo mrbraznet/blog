@@ -44,6 +44,7 @@ One good solution for Service Discovery is to use all of the following component
     * <a target="_blank" href="https://aws.amazon.com/elasticloadbalancing/">AWS Elastic Load Balancer</a>
     * <a target="_blank" href="https://www.envoyproxy.io">Envoy</a>
     * <a target="_blank" href="https://github.com/airbnb/synapse">Synapse</a>
+    * <a target="_blank" href="https://coredns.io">CoreDNS</a>
 
 ![Service Discovery Solution](/assets/images/posts/service-discovery.png)
 
