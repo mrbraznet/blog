@@ -13,8 +13,7 @@
             </div>
         </li>
     -->
-    {% for menu in site.menu %}
-    {% assign item = menu[1] %}
+    {% for menu in site.menu %} {% assign item = menu[1] %}
     <li class="nav-item">
         {% if item.highlight %}
         <a class="nav-link highlight" href="{{item.link}}">{{item.label}}</a>

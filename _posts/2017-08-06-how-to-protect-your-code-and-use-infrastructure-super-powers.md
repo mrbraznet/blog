@@ -54,7 +54,7 @@ One good solution for Service Discovery is to use all of the following component
 
 Resilience is achieved by using Circuit Breaker pattern. The most common solution is the Histryx by Netflix OSS. Again, if you are using a proxy for inter services communication, why not let the proxy to manage it for you? <a target="_blank" href="https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/circuit_breaking">Envoy</a> and <a target="_blank" href="https://www.nginx.com/blog/microservices-reference-architecture-nginx-circuit-breaker-pattern/">NGINX</a> has the built-in circuit breaker pattern.
 
-> Maybe, you are asking yourself now: So, what is the point? Why should I change my code in order to incorporate this kind of infrastructure?
+> You are asking yourself now: So, what is the point? Why should I change my code in order to incorporate this kind of infrastructure?
 
 Because you are producing microservices and probably you want to experiment some another languages and platforms, so instead of having to build a lot of code for each language or platform, you delegate it to the infrastructure. 
 

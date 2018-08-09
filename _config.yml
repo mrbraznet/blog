@@ -1,13 +1,13 @@
 #Site
 name: Mr. Braz Tech
-description: Welcome to server-side blogging
-meta_description: Helping server-side developers find the best solutions for distributed system problems in order to work in a stress-free and awesome project.
+description: Este é um blog sobre desenvolvimento de sistemas distribuídos
+meta_description: Ajudando desenvolvedores de backend a encontrarem as melhores soluções para sistemas distribuídos para que eles possam trabalhar em projetos incríveis e sem estresse.
 logo: assets/images/logo.png
 email: anderson.braz@gmail.com
 
 baseurl: 
 paginate: 10
-sharethis: "<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5b55ed9f8f327c00111ab118&product=sticky-share-buttons' async='async'></script>"
+
 google_analytics: UA-122758390-1
 disqus: mrbraztech
 markdown: kramdown
@@ -17,31 +17,28 @@ mailchimp:
   newsletter: http://github.us13.list-manage.com/subscribe/post?u=53fdeff1bbaa9a91b2486aa86&id=63167cb18e
 
 callToAction:
-  title: Microservices Straight from the Trenches Series
-  lead: "Join us in the live webinar: How to choose the right protocol for each problem you have?"
+  title: "Série: Micro serviços direto das trincheiras"
+  lead: "Junte-se a nós neste webinário ao vivo: Descubra os 7 melhores protocolos de comunicação para micro serviços e como eles resolvem os seus problemas"
   action: http://webinars.mrbraz.tech
-  actionLabel: I wanna reserve my seat!
+  actionLabel: Quero me inscrever agora!
 
 #hero
 hero:
   image: /assets/images/head.jpg
-  title: Let's build the awesomeness
-  lead: Lead tet goes here
-  actionLabel: Action goes gere
-  actionLink: /
+  title: Encontre as melhores soluções para os seus problemas
+  lead: Quer trabalhar em um projeto incrível e sem estresse?
+  actionLabel: ">> Descubra como <<"
+  actionLink: /#articles
+  actionTarget: _self
 
 menu:
   about:
-    label: About
+    label: Sobre
     link: /about
   contact:
-    label: Contact
+    label: Contato
     link: /contact
-  download:
-    label: Download
-    link: /
-    highlight: true
-
+  
 # Authors
 authors:
   braz:
@@ -73,7 +70,7 @@ partners:
   code4life:
     name: Code4.Life
     link: https://code4.life
-  cyborgdev:
+  cyborg:
     name: Cyborg Developer
     link: https://cyborgdeveloper.tech
 
