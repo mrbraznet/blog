@@ -69,55 +69,7 @@
             </div>
         </div>
 
-        <footer class="footer">
-
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="footer-widget">
-                            <a href="{{site.baseurl}}/contact">
-                                <img src="{{ site.baseurl }}/assets/images/logo-footer.png">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="footer-widget textwidget">
-                            <h5 class="title">Resources</h5>
-                            <ul>
-                                {% for item in site.resources %}
-                                {% assign resource = item[1] %}
-                                <li><a target="_blank" href="{{ resource.link }}">{{ resource.name }}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="footer-widget textwidget">
-                            <h5 class="title">Autor</h5>
-                            <ul>
-                                {% for menu in site.menu %}
-                                {% assign item = menu[1] %}
-                                <li><a href="{{item.link}}">{{item.label}}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="copyright">
-                    <p class="pull-left">
-                        Copyright © {{ site.time | date: "%Y" }} {{ site.name }}.
-                    </p>
-                    <p class="pull-right">
-                        Template by WowThemes.net
-                    </p>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-        </footer>
+        {% include footer.html %}
     </div>
         
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>

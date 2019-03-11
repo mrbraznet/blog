@@ -4,6 +4,7 @@ description: Este é um blog sobre desenvolvimento de sistemas distribuídos
 meta_description: Ajudando desenvolvedores de backend a encontrarem as melhores soluções para sistemas distribuídos para que eles possam trabalhar em projetos incríveis e sem estresse.
 logo: assets/images/logo.png
 email: anderson.braz@gmail.com
+time: 13/11/2018
 
 baseurl: 
 paginate: 10
@@ -26,12 +27,15 @@ callToAction:
 hero:
   image: /assets/images/head.jpg
   title: Encontre as melhores soluções para os seus problemas
-  lead: Quer trabalhar em um projeto incrível e sem estresse?
+  lead: Quer trabalhar em um projeto foda e sem estresse?
   actionLabel: ">> Descubra como <<"
   actionLink: /#articles
   actionTarget: _self
 
 menu:
+  glossario:
+    label: Glossário
+    link: /glossario
   about:
     label: Sobre
     link: /about
@@ -52,6 +56,10 @@ authors:
 
 # Resources
 resources:
+  linkedin:
+    name: Linkedin
+    link: https://www.linkedin.com/in/mrbraztech
+
   slideshare:
     name: Slideshare
     link: http://slideshare.com/mrbrazjava
