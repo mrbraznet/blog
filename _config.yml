@@ -1,7 +1,7 @@
 #Site
 name: Mr. Braz Tech
 description: Este é um blog sobre desenvolvimento de sistemas distribuídos
-meta_description: Ajudando desenvolvedores de backend a encontrarem as melhores soluções para sistemas distribuídos para que eles possam trabalhar em projetos incríveis e sem estresse.
+meta_description: Ajudando desenvolvedores de backend a encontrarem as melhores soluções para sistemas distribuídos para que eles possam trabalhar nos melhores projetos incríveis de suas vidas.
 logo: assets/images/logo.png
 email: anderson.braz@gmail.com
 time: 13/11/2018
@@ -27,7 +27,7 @@ callToAction:
 hero:
   image: /assets/images/head.jpg
   title: Encontre as melhores soluções para os seus problemas
-  lead: Quer trabalhar em um projeto foda e sem estresse?
+  lead: Quer trabalhar no melhor projeto da sua vida?
   actionLabel: ">> Descubra como <<"
   actionLink: /#articles
   actionTarget: _self
